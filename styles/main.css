@@ -1,0 +1,85 @@
+/*
+    Name: Naquan McNeil
+    Date: October 24, 2026
+    File: main.css
+*/
+
+/* Set the page colors and font. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f5;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #234b70;
+}
+
+/* Space and style the form fields. */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    font: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 10px 25px;
+    background-color: #234b70;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #17334d;
+}
+
+/* Keep keyboard focus visible. */
+input:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #234b70;
+    outline-offset: 2px;
+}
+
+/* Style the confirmation output. */
+.confirmation {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    overflow-wrap: anywhere;
+}
+
+.error {
+    color: #a11717;
+}
+
+.success {
+    color: #176b2c;
+}
